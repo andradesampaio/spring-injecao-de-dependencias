@@ -5,13 +5,13 @@ import br.com.spring.injecaodependencias.notificacao.service.AtivacaoClienteServ
 
 fun main(){
 
-    val joao = Cliente("João", "joao@xyz.com", "3499998888")
-    val maria = Cliente("Maria", "maria@xyz.com", "1177772222")
+//    val joao = Cliente("João", "joao@xyz.com", "3499998888")
+//    val maria = Cliente("Maria", "maria@xyz.com", "1177772222")
 
 
-    val notificador = NotificadorEmail("smtp.algamail.com.br")
+//    val notificador = NotificadorEmaiOld("smtp.algamail.com.br")
 //
-    val ativacaoCliente = AtivacaoClienteService(notificador)
-    ativacaoCliente.ativar(joao)
-//    ativacaoCliente.ativar(maria)
+//    val ativacaoCliente = AtivacaoClienteService(notificador)
+//    ativacaoCliente.ativar(joao)
+//    ativacaoCliente.ativar(maria)maria
 }
